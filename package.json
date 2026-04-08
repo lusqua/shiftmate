@@ -1,0 +1,20 @@
+{
+  "name": "shiftmate",
+  "private": true,
+  "scripts": {
+    "dev:core-api": "bun run --filter @shiftmate/core-api dev",
+    "dev:core-app": "bun run --filter @shiftmate/core-app dev",
+    "db:seed": "bun run packages/core-api/src/scripts/seed.ts",
+    "test": "bun test --recursive packages",
+    "format": "bunx prettier --write \"packages/**/*.{ts,tsx}\""
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
