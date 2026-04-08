@@ -1,0 +1,13 @@
+{
+  "name": "@shiftmate/scheduling",
+  "main": "src/index.ts",
+  "devDependencies": {
+    "@shiftmate/database": "*",
+    "@shiftmate/tenant": "*",
+    "@shiftmate/worker": "*",
+    "@types/bun": "latest"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.44.2"
+  }
+}
