@@ -1,0 +1,12 @@
+{
+  "name": "@shiftmate/worker",
+  "main": "src/index.ts",
+  "devDependencies": {
+    "@shiftmate/database": "*",
+    "@shiftmate/tenant": "*",
+    "@types/bun": "latest"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.44.2"
+  }
+}
