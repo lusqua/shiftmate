@@ -1,0 +1,15 @@
+{
+  "name": "@shiftmate/auth",
+  "main": "src/index.ts",
+  "devDependencies": {
+    "@shiftmate/database": "*",
+    "@shiftmate/tenant": "*",
+    "@types/bun": "latest",
+    "@types/bcrypt": "^6.0.0"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.44.2",
+    "bcrypt": "^6.0.0",
+    "hono": "^4.11.3"
+  }
+}
