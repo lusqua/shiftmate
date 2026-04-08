@@ -1,0 +1,7 @@
+{
+  "name": "@shiftmate/llm",
+  "main": "src/index.ts",
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
