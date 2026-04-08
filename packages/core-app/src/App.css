@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: corporate --default;
+}
+
+@layer base {
+  .btn {
+    border-radius: 0.5rem;
+  }
+  .input, .select {
+    border-radius: 0.5rem;
+  }
+  .modal-box {
+    overflow: visible;
+  }
+}
