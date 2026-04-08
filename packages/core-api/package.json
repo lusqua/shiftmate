@@ -1,0 +1,20 @@
+{
+  "name": "@shiftmate/core-api",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@shiftmate/worker": "*",
+    "@shiftmate/scheduling": "*",
+    "@shiftmate/database": "*",
+    "@shiftmate/llm": "*",
+    "@shiftmate/auth": "*",
+    "@shiftmate/tenant": "*",
+    "@types/bcrypt": "^6.0.0"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.44.2",
+    "hono": "^4.11.3"
+  },
+  "scripts": {
+    "dev": "bun --watch src/index.ts"
+  }
+}
